@@ -1,0 +1,13 @@
+h2{
+  text-align:center;
+  vertical-align: middle;
+  margin:20px 0;
+}
+.productBlock{width:100%;}
+.input_block {width: 150px; height: 75px; float: left; padding: 10px; margin-left:5px;}
+.of_block {width: 23%; height: 75px; float: left; padding: 10px; margin:5px;}
+.num_input, .whd {width:50px;float:left;margin-right:5px;}
+.num_input2 {width:75px; float: left;}
+.full_length {width:100%;}
+.half_block {width:48%; padding:10px;float:left;}
+.ot_block {width:30%; padding:10px; float:left;margin-left:10px;}

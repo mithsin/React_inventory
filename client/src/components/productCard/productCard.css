@@ -1,0 +1,47 @@
+.productcard {
+  width:100%;
+}
+.productcardbody{
+  width: 30%;
+  max-width:400px;
+  min-width:250px;
+  /* height: 400px; */
+  float:left;
+  margin: 7px 7px 7px 0;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 1px 2px 2px 2px rgba(0,0,0,.5);
+  background-color: rgba(256,256,256,.8);
+  position:relative;
+}
+.productcardbody:hover{
+  background-color: rgba(250,250,250,.8);
+  color: rgba(0,0,0,.7);
+}
+
+img.headimg{
+  width:100px;
+  height:100px;
+}
+
+img.tailimg{
+   width:50px;
+   height:50px;
+}
+
+.slide-up {
+  animation: 1s slide-up;
+  margin-top:0%;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin: 5px;
+    height: 100%;
+  }
+}
